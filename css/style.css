@@ -1,0 +1,97 @@
+html {
+        font-family: "Roboto", sans sans-serif;
+        color: black;
+        line-height: 1.4;
+        font-size: 110%;
+    }
+
+.bg-black {
+    background-color: black;
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+}
+header ul {
+        display: flex;
+}
+
+.hero-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav {
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+}
+nav a:link {
+    padding-top: .5em;
+    padding-right: .75em;
+    padding-bottom: .5em;
+    padding-left: .75em;
+    border-radius: 8px;
+}
+
+nav a:link, ul a:visited {
+    color: white;
+    border: 2px solid 8px;
+    text-decoration: none; 
+}
+
+nav a:hover, ul a:focus {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.background {
+    background-color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+.services {
+    background-color: lightgrey;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+}
+
+article {
+    background-color: white;
+    border-radius: 4px;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
